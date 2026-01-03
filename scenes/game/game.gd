@@ -12,10 +12,8 @@ func _ready() -> void:
 	ScoreManager.score = 0
 	SignalManager.on_plane_died.connect(_on_plane_died)
 	spawn_pipes()
+	print("Hola github")
 
-
-func _process(delta: float) -> void:
-	pass
 
 
 func spawn_pipes()-> void:
